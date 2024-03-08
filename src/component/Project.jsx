@@ -1,7 +1,7 @@
 import dance_zone from "../assets/dance-zone.png";
 import toy_world from "../assets/toy-world.png";
 
-export const Project = () => {
+const Project = () => {
   return (
     <div className="mt-20">
       <h1 className="text-4xl text-center font-bold text-slate-700">
@@ -90,3 +90,5 @@ export const Project = () => {
     </div>
   );
 };
+
+export default Project;

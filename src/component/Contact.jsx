@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <div>
-      <h1 className="mt-20 text-center text-3xl font-bold text-slate-700 mb-14">
+    <div data-aos="zoom-in">
+      <h1 className="mt-20 text-center text-3xl font-bold text-slate-700 mb-10">
         Contact
       </h1>
       <form className="text-center mb-16">

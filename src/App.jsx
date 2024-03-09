@@ -1,4 +1,8 @@
+import { useEffect } from "react";
 import "./App.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import ScrollToTop from "react-scroll-to-top";
 import About from "./component/About";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
@@ -7,8 +11,13 @@ import Project from "./component/Project";
 import Skill from "./component/Skill";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <>
+      <ScrollToTop smooth width={40} height={22} color="#3e6ff4" />
       <Header />
       <About />
       <Project />

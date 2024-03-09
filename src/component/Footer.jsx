@@ -35,6 +35,8 @@ const Footer = () => {
           </a>
         </i>
       </div>
+      <p>+88 01893187274</p>
+      <small>Whats app</small>
       <p>© Robiul Haque. All rigths reserved</p>
     </div>
   );

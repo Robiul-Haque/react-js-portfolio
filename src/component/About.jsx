@@ -13,7 +13,7 @@ const About = () => {
           alt="About me image"
           className="md:w-96 md:mb-0 md:mx-0 mb-10 w-64 mx-auto"
         />
-        <div>
+        <div data-aos="fade-left">
           <p className="md:text-left md:w-[600px] md:text-lg text-justify mx-6 text-slate-700">
             <span className="md:text-xl text-lg font-semibold">Hi</span> there!
             I'm{" "}

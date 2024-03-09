@@ -101,67 +101,235 @@ const Skill = () => {
           </div>
         </div>
       </div>
-      <div className="w-9/12 mx-auto mt-16 px-72">
+      <div className="md:block hidden w-9/12 mx-auto mt-16 px-72">
         <Swiper
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
-          slidesPerView={8}
+          slidesPerView={10}
           spaceBetween={30}
           modules={[Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide>
-            <IoLogoHtml5 title="HTML" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <IoLogoHtml5
+              title="HTML"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <IoLogoCss3 title="CSS" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <IoLogoCss3
+              title="CSS"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <SiTailwindcss title="TAILWIND CSS" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" cursor-pointer />
+            <SiTailwindcss
+              title="TAILWIND CSS"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+              cursor-pointer
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <FaBootstrap title="BOOTSTRAP" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <FaBootstrap
+              title="BOOTSTRAP"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <RiJavascriptFill title="JAVASCRIPT" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <RiJavascriptFill
+              title="JAVASCRIPT"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <FaReact title="REACT" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <FaReact
+              title="REACT"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <SiExpress title="EXPRESS JS" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <SiExpress
+              title="EXPRESS JS"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <FaNode title="NODE JS" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <FaNode
+              title="NODE JS"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <DiMongodb title="MONGO DB" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <DiMongodb
+              title="MONGO DB"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <SiNextdotjs title="NEXT JS" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <SiNextdotjs
+              title="NEXT JS"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <IoLogoFirebase title="FIREBASE" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <IoLogoFirebase
+              title="FIREBASE"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <SiReactquery title="REACT QUERY" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <SiReactquery
+              title="REACT QUERY"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <SiJsonwebtokens title="JSON WEB TOKEN" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <SiJsonwebtokens
+              title="JSON WEB TOKEN"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <SiFramer title="FRAMER" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <SiFramer
+              title="FRAMER"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <IoLogoFigma title="FIGMA" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <IoLogoFigma
+              title="FIGMA"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <FaGithub title="GITHUB" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <FaGithub
+              title="GITHUB"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <TbBrandVscode title="VS CODE" className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer" />
+            <TbBrandVscode
+              title="VS CODE"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+      <div className="md:hidden block  mx-auto mt-16 px-8">
+        <Swiper
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          slidesPerView={4}
+          spaceBetween={30}
+          modules={[Autoplay]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <IoLogoHtml5
+              title="HTML"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <IoLogoCss3
+              title="CSS"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiTailwindcss
+              title="TAILWIND CSS"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+              cursor-pointer
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <FaBootstrap
+              title="BOOTSTRAP"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <RiJavascriptFill
+              title="JAVASCRIPT"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <FaReact
+              title="REACT"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiExpress
+              title="EXPRESS JS"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <FaNode
+              title="NODE JS"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <DiMongodb
+              title="MONGO DB"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiNextdotjs
+              title="NEXT JS"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <IoLogoFirebase
+              title="FIREBASE"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiReactquery
+              title="REACT QUERY"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiJsonwebtokens
+              title="JSON WEB TOKEN"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiFramer
+              title="FRAMER"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <IoLogoFigma
+              title="FIGMA"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <FaGithub
+              title="GITHUB"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <TbBrandVscode
+              title="VS CODE"
+              className="text-6xl mx-auto bg-slate-100 p-2 rounded-md hover:text-[#3e6ff4] transition duration-300 cursor-pointer"
+            />
           </SwiperSlide>
         </Swiper>
       </div>

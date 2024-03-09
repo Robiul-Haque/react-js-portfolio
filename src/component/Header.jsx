@@ -7,6 +7,8 @@ import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { MdLocalPhone } from "react-icons/md";
 import { GoDownload } from "react-icons/go";
+import { TypeAnimation } from "react-type-animation";
+import { FaComputer } from "react-icons/fa6";
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -31,19 +33,29 @@ const Header = () => {
           <h1 className="text-xl font-semibold">Robiul Haque</h1>
           <ul className="flex md:gap-x-10 font-semibold">
             <li>
-              <a href="#" className="gradient-text-onHover">Home</a>
+              <a href="#" className="gradient-text-onHover">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#" className="gradient-text-onHover">About</a>
+              <a href="#" className="gradient-text-onHover">
+                About
+              </a>
             </li>
             <li>
-              <a href="#" className="gradient-text-onHover">Project</a>
+              <a href="#" className="gradient-text-onHover">
+                Project
+              </a>
             </li>
             <li>
-              <a href="#" className="gradient-text-onHover">Skill</a>
+              <a href="#" className="gradient-text-onHover">
+                Skill
+              </a>
             </li>
             <li>
-              <a href="#" className="gradient-text-onHover">Contact</a>
+              <a href="#" className="gradient-text-onHover">
+                Contact
+              </a>
             </li>
           </ul>
         </nav>
@@ -72,19 +84,29 @@ const Header = () => {
               className="flex flex-col gap-y-5 font-semibold text-center rounded-md absolute left-5 top-[85px] z-50 bg-white opacity-95 w-80 py-6"
             >
               <li>
-                <a href="#" className="gradient-text-onHover">Home</a>
+                <a href="#" className="gradient-text-onHover">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#" className="gradient-text-onHover">About</a>
+                <a href="#" className="gradient-text-onHover">
+                  About
+                </a>
               </li>
               <li>
-                <a href="#" className="gradient-text-onHover">Project</a>
+                <a href="#" className="gradient-text-onHover">
+                  Project
+                </a>
               </li>
               <li>
-                <a href="#" className="gradient-text-onHover">Skill</a>
+                <a href="#" className="gradient-text-onHover">
+                  Skill
+                </a>
               </li>
               <li>
-                <a href="#" className="gradient-text-onHover">Contact</a>
+                <a href="#" className="gradient-text-onHover">
+                  Contact
+                </a>
               </li>
             </ul>
           )}
@@ -99,10 +121,23 @@ const Header = () => {
             <h1 className="md:text-6xl font-bold text-3xl md:my-6 my-2 text-slate-700">
               I'am <span className="gradient-text">ROBIUL HAQUE</span>
             </h1>
-            <h1 className="md:text-6xl font-bold text-3xl text-slate-700">
-              Software Engineer
-            </h1>
-            <button className="flex justify-center gap-x-3 items-center bg-gradient-to-r from-cyan-500 to-[#3e6ff4] px-5 py-4 rounded-lg text-white font-semibold text-lg md:mt-12 mt-8 md:mx-0 mx-auto shadow-2xl shadow-slate-400" title="Downlode Robiul Haque CV">
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed once, initially
+                "Software Engineer 💻",
+                1500,
+                "Frontend Web Developer",
+                1500
+              ]}
+              speed={50}
+              style={{ fontSize: "1.6em" }}
+              repeat={Infinity}
+              className="md:text-6xl font-bold text-slate-700"
+            />
+            <button
+              className="flex justify-center gap-x-3 items-center bg-gradient-to-r from-cyan-500 to-[#3e6ff4] px-5 py-4 rounded-lg text-white font-semibold text-lg md:mt-12 mt-8 md:mx-0 mx-auto shadow-2xl shadow-slate-400"
+              title="Downlode Robiul Haque CV"
+            >
               Downlode CV
               <GoDownload className="text-2xl animate-bounce" />
             </button>

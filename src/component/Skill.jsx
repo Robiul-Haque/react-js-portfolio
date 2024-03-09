@@ -24,7 +24,7 @@ import { TbBrandVscode } from "react-icons/tb";
 const Skill = () => {
   return (
     <>
-      <h1 className="text-4xl text-center font-bold pt-10 text-slate-700">
+      <h1 className="text-4xl text-center font-bold pt-4 text-slate-700">
         Skill
       </h1>
       <div className="flex md:flex-row md:justify-center md:gap-x-20 md:items-center flex-col mt-14">

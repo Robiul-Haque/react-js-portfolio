@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .gradient-text {
     background: #06B6D4;
-    background: linear-gradient(to right, #06B6D4 .1%, #3E6FF4 100%);
+    background: linear-gradient(to right, #06B6D4.1%, #3E6FF4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-onHover:hover {
+    background: #06B6D4;
+    background: linear-gradient(to right, #06B6D4.1%, #3E6FF4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

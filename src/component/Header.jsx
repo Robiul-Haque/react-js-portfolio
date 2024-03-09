@@ -27,23 +27,23 @@ const Header = () => {
     <>
       <header className="">
         {/* desktop nav */}
-        <nav className="lg:flex md:flex hidden justify-around items-center py-6 border shadow-lg sticky top-0 z-50 bg-white">
+        <nav className="lg:flex md:flex hidden justify-around items-center py-5 border shadow-lg fixed w-full top-0 z-50 bg-white">
           <h1 className="text-xl font-semibold">Robiul Haque</h1>
           <ul className="flex md:gap-x-10 font-semibold">
             <li>
-              <a href="#">Home</a>
+              <a href="#" className="gradient-text-onHover">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#" className="gradient-text-onHover">About</a>
             </li>
             <li>
-              <a href="#">Skill</a>
+              <a href="#" className="gradient-text-onHover">Project</a>
             </li>
             <li>
-              <a href="#">Project</a>
+              <a href="#" className="gradient-text-onHover">Skill</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#" className="gradient-text-onHover">Contact</a>
             </li>
           </ul>
         </nav>
@@ -72,46 +72,48 @@ const Header = () => {
               className="flex flex-col gap-y-5 font-semibold text-center rounded-md absolute left-5 top-[85px] z-50 bg-white opacity-95 w-80 py-6"
             >
               <li>
-                <a href="#">Home</a>
+                <a href="#" className="gradient-text-onHover">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#" className="gradient-text-onHover">About</a>
               </li>
               <li>
-                <a href="#">Skill</a>
+                <a href="#" className="gradient-text-onHover">Project</a>
               </li>
               <li>
-                <a href="#">Project</a>
+                <a href="#" className="gradient-text-onHover">Skill</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#" className="gradient-text-onHover">Contact</a>
               </li>
             </ul>
           )}
         </div>
 
         {/* hero section */}
-        <div className="md:flex md:justify-center md:gap-x-6 md:items-center md:mt-[-120px]">
+        <div className="md:flex md:justify-center md:gap-x-6 md:items-center md:mt-[-40px]">
           <div className="md:ml-10 md:text-left text-center md:mt-32 mt-10">
-            <h1 className="md:text-6xl font-bold text-3xl text-slate-700">Hi,</h1>
+            <h1 className="md:text-6xl font-bold text-3xl text-slate-700">
+              Hi,
+            </h1>
             <h1 className="md:text-6xl font-bold text-3xl md:my-6 my-2 text-slate-700">
               I'am <span className="gradient-text">ROBIUL HAQUE</span>
             </h1>
             <h1 className="md:text-6xl font-bold text-3xl text-slate-700">
               Software Engineer
             </h1>
-            <button className="flex justify-center gap-x-3 items-center bg-gradient-to-r from-cyan-500 to-[#3e6ff4] px-6 py-4 rounded-lg text-white font-semibold text-lg md:mt-12 mt-8 md:mx-0 mx-auto">
+            <button className="flex justify-center gap-x-3 items-center bg-gradient-to-r from-cyan-500 to-[#3e6ff4] px-5 py-4 rounded-lg text-white font-semibold text-lg md:mt-12 mt-8 md:mx-0 mx-auto shadow-2xl shadow-slate-400" title="Downlode Robiul Haque CV">
               Downlode CV
-              <GoDownload className="text-2xl" />
+              <GoDownload className="text-2xl animate-bounce" />
             </button>
-            <div className="flex md:justify-start justify-center gap-x-8 text-xl mt-10 text-[#3e6ff4] ">
+            <div className="flex md:justify-start justify-center gap-x-8 text-xl mt-12 text-[#3e6ff4]">
               <i>
                 <a
                   href="https://github.com/Robiul-Haque"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub />
+                  <FaGithub className="text-2xl md:hover:-translate-y-2 duration-300 md:hover:text-slate-700" />
                 </a>
               </i>
               <i>
@@ -120,13 +122,14 @@ const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLinkedin />
+                  <FaLinkedin className="text-2xl md:hover:-translate-y-2 duration-300 md:hover:text-slate-700" />
                 </a>
               </i>
               <i>
                 <a href="http://" target="_blank" rel="noopener noreferrer">
                   <MdEmail
                     onClick={() => window.open("mailto:robiulcoc420@gmail.com")}
+                    className="text-2xl md:hover:-translate-y-2 duration-300 md:hover:text-slate-700"
                   />
                 </a>
               </i>
@@ -136,7 +139,7 @@ const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <MdLocalPhone />
+                  <MdLocalPhone className="text-2xl md:hover:-translate-y-2 duration-300 md:hover:text-slate-700" />
                 </a>
               </i>
             </div>

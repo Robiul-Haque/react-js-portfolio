@@ -31,7 +31,7 @@ const About = () => {
             and stunning responsive design.
           </p>
           <div className="flex md:justify-start justify-center">
-            <button className="flex justify-center items-center gap-x-3 bg-gradient-to-r from-cyan-500 to-[#3e6ff4] px-9 py-3 rounded-lg text-white font-semibold text-lg md:mt-12 md:ml-6 mt-8">
+            <button className="flex justify-center items-center gap-x-3 bg-gradient-to-r from-cyan-500 to-[#3e6ff4] px-6 py-3 rounded-lg text-white font-semibold text-lg md:mt-12 md:ml-6 mt-8 shadow-2xl shadow-slate-400 md:hover:translate-x-3 duration-500 ease-out">
               Contact
               <LuMoveRight />
             </button>

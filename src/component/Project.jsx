@@ -7,8 +7,8 @@ const Project = () => {
       <h1 className="text-4xl text-center font-bold text-slate-700">
         My Crative <span className="text-[#3e6ff4]">Portfolio</span>
       </h1>
-      <div className="flex md:justify-center md:gap-x-10 md:gap-y-0 md:flex-row my-14 flex-col items-center gap-y-10">
-        <div className="md:w-96 w-80 border rounded-md">
+      <div className="flex md:justify-center md:gap-x-10 md:gap-y-0 md:flex-row my-20 flex-col items-center gap-y-10">
+        <div className="md:w-96 w-80 border rounded-md md:hover:shadow-2xl duration-500 ease-out md:hover:-translate-y-5">
           <img src={dance_zone} alt="" />
           <div className="text-center px-6 py-5">
             <h2 className="text-xl font-bold text-slate-700">Dance Zone</h2>
@@ -34,7 +34,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-96 w-80 border rounded-md">
+        <div className="md:w-96 w-80 border rounded-md md:hover:shadow-2xl duration-500 ease-out md:hover:-translate-y-5">
           <img src={toy_world} alt="" className="rounded-t-md" />
           <div className="text-center px-6 py-5">
             <h2 className="text-xl font-bold text-slate-700">Dance Zone</h2>
@@ -60,7 +60,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-96 w-80 border rounded-md">
+        <div className="md:w-96 w-80 border rounded-md md:hover:shadow-2xl duration-500 ease-out md:hover:-translate-y-5">
           <img src={dance_zone} alt="" />
           <div className="text-center px-6 py-5">
             <h2 className="text-xl font-bold text-slate-700">Dance Zone</h2>

@@ -23,11 +23,14 @@ import { TbBrandVscode } from "react-icons/tb";
 
 const Skill = () => {
   return (
-    <>
+    <div id="skill">
       <h1 className="text-4xl text-center font-bold pt-4 text-slate-700">
         Skill
       </h1>
-      <div className="flex md:flex-row md:justify-center md:gap-x-20 md:items-center flex-col mt-14">
+      <div
+        data-aos="zoom-in"
+        className="flex md:flex-row md:justify-center md:gap-x-20 md:items-center flex-col mt-14"
+      >
         <div>
           <img src={skill} alt="" className="md:w-96 w-80 mx-auto" />
         </div>
@@ -333,7 +336,7 @@ const Skill = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-    </>
+    </div>
   );
 };
 

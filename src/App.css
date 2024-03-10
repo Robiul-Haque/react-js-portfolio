@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #06B6D4.1%, #3E6FF4 100%);
+    border-radius: 10px;
+    transition: 1s all ease-in;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3E6FF4;
+  }
+
 .gradient-text {
     background: #06B6D4;
     background: linear-gradient(to right, #06B6D4.1%, #3E6FF4 100%);
@@ -14,4 +32,8 @@
     background: linear-gradient(to right, #06B6D4.1%, #3E6FF4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-onFocuse:focus {
+  background-color: red;
 }

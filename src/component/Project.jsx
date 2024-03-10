@@ -3,7 +3,7 @@ import toy_world from "../assets/toy-world.png";
 
 const Project = () => {
   return (
-    <div data-aos="fade-up" className="mt-20">
+    <div data-aos="fade-up" id="project" className="mt-20">
       <h1 className="text-4xl text-center font-bold text-slate-700">
         My Crative <span className="text-[#3e6ff4]">Portfolio</span>
       </h1>

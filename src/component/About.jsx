@@ -3,7 +3,7 @@ import { LuMoveRight } from "react-icons/lu";
 
 const About = () => {
   return (
-    <div className="bg-slate-100 mt-4 md:py-20 py-12">
+    <div id="about" className="bg-slate-100 mt-4 md:py-20 py-12">
       <h1 className="text-4xl text-center font-bold text-slate-700">
         About
       </h1>

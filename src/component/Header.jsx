@@ -8,7 +8,6 @@ import { MdEmail } from "react-icons/md";
 import { MdLocalPhone } from "react-icons/md";
 import { GoDownload } from "react-icons/go";
 import { TypeAnimation } from "react-type-animation";
-import { FaComputer } from "react-icons/fa6";
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -33,27 +32,27 @@ const Header = () => {
           <h1 className="text-xl font-semibold">Robiul Haque</h1>
           <ul className="flex md:gap-x-10 font-semibold">
             <li>
-              <a href="#" className="gradient-text-onHover">
+              <a href="#home" className="gradient-text-onHover gradient-text-onFocuse">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="gradient-text-onHover">
+              <a href="#about" className="gradient-text-onHover gradient-text-onFocuse">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="gradient-text-onHover">
+              <a href="#project" className="gradient-text-onHover gradient-text-onFocuse">
                 Project
               </a>
             </li>
             <li>
-              <a href="#" className="gradient-text-onHover">
+              <a href="#skill" className="gradient-text-onHover gradient-text-onFocuse">
                 Skill
               </a>
             </li>
             <li>
-              <a href="#" className="gradient-text-onHover">
+              <a href="#contact" className="gradient-text-onHover gradient-text-onFocuse">
                 Contact
               </a>
             </li>
@@ -84,27 +83,27 @@ const Header = () => {
               className="flex flex-col gap-y-5 font-semibold text-center rounded-md absolute left-5 top-[85px] z-50 bg-white opacity-95 w-80 py-6"
             >
               <li>
-                <a href="#" className="gradient-text-onHover">
+                <a href="#home" className="gradient-text-onHover">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="gradient-text-onHover">
+                <a href="#about" className="gradient-text-onHover">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="gradient-text-onHover">
+                <a href="#project" className="gradient-text-onHover">
                   Project
                 </a>
               </li>
               <li>
-                <a href="#" className="gradient-text-onHover">
+                <a href="#skill" className="gradient-text-onHover">
                   Skill
                 </a>
               </li>
               <li>
-                <a href="#" className="gradient-text-onHover">
+                <a href="#contact" className="gradient-text-onHover">
                   Contact
                 </a>
               </li>
@@ -113,7 +112,10 @@ const Header = () => {
         </div>
 
         {/* hero section */}
-        <div className="md:flex md:justify-center md:gap-x-6 md:items-center md:mt-[-40px]">
+        <div
+          id="home"
+          className="md:flex md:justify-center md:gap-x-6 md:items-center md:mt-[-40px]"
+        >
           <div className="md:ml-10 md:text-left text-center md:mt-32 mt-10">
             <h1 className="md:text-6xl font-bold text-3xl text-slate-700">
               Hi,
@@ -127,7 +129,7 @@ const Header = () => {
                 "Software Engineer 💻",
                 1500,
                 "Frontend Web Developer",
-                1500
+                1500,
               ]}
               speed={50}
               style={{ fontSize: "1.6em" }}

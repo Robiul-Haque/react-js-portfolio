@@ -21,7 +21,7 @@ const Footer = () => {
         </i>
         <i>
           <a
-            href="https://www.linkedin.com/in/robiul-haque-frontend-developer/"
+            href="https://www.linkedin.com/in/robiul-haque-full-stack-web-developer/"
             target="_blank"
             rel="noopener noreferrer"
           >

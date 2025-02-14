@@ -20,15 +20,7 @@ const About = () => {
             <span className="md:text-xl text-lg font-semibold gradient-text">
               Robiul Haque
             </span>
-            , a passionate front-end (React Js) web developer based in Faridpur,
-            Bangladesh. I thrive on crafting elegant solutions to complex
-            problems. With a keen eye for detail and a dedication to clean,
-            efficient code, I specialize in building intuitive user interfaces
-            that captivate and delight. My relentless pursuit of excellence
-            drives me to continuously expand my skill set and stay ahead of the
-            curve in the ever-evolving world of web development. Let's
-            collaborate and bring your ideas to life with seamless functionality
-            and stunning responsive design.
+            , a Full Stack JavaScript Web Developer (MERN) based in Faridpur, Bangladesh. I love transforming ideas into functional, high-performance web applications. With expertise in React.js, Node.js, Express.js, and MongoDB, I specialize in crafting seamless user experiences and building scalable, efficient back-end systems. My keen eye for detail, commitment to writing clean, maintainable code, and enthusiasm for problem-solving drive me to stay ahead in the ever-evolving web development landscape. Whether it's designing intuitive UI/UX or optimizing server-side performance, I am always eager to learn, adapt, and push the boundaries of what's possible on the web. Let's collaborate and turn your vision into reality with responsive, high-quality applications.
           </p>
           <div className="flex md:justify-start justify-center">
             <button className="flex justify-center items-center gap-x-3 bg-gradient-to-r from-cyan-500 to-[#3e6ff4] px-6 py-3 rounded-lg text-white font-semibold text-lg md:mt-12 md:ml-6 mt-8 shadow-2xl shadow-slate-400 md:hover:translate-x-3 duration-500 ease-out">

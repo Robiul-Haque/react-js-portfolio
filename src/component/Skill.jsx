@@ -32,7 +32,7 @@ const Skill = () => {
         className="flex md:flex-row md:justify-center md:gap-x-20 md:items-center flex-col mt-14"
       >
         <div>
-          <img src={skill} alt="" className="md:w-96 w-80 mx-auto" />
+          <img src={skill} alt="skill image" className="md:w-96 w-80 mx-auto" />
         </div>
         <div>
           <p className="md:w-96 w-80 text-justify text-slate-700 mx-auto md:mt-0 mt-10">
@@ -41,7 +41,27 @@ const Skill = () => {
             responsive and interactive websites and applications
           </p>
           <div className="mt-8">
-            <div className="md:w-96 w-80 text-center bg-slate-100 rounded-lg md:mx-0 mx-auto">
+            <div className="flex justify-center gap-3 flex-wrap my-7 px-10 md:px-0 md:w-96">
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">React js</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Redux</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">TypeScript</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Next js</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Bootstrap</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Tailwind CSS</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Material UI</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Daisy UI</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Mongo DB</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Mongoose</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Express</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">JWT</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Cloudinary</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Firebase</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Framer</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Figma</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">Postman</p>
+              <p className="px-2 py-1 bg-slate-100 rounded text-sm">React Query</p>
+            </div>
+            {/* <div className="md:w-96 w-80 text-center bg-slate-100 rounded-lg md:mx-0 mx-auto">
               <div className="flex justify-between px-2 bg-gradient-to-r from-cyan-500 to-[#3e6ff4] text-white font-semibold rounded-xl w-80 text-sm">
                 <p>HTML</p>
                 <p>90%</p>
@@ -100,7 +120,7 @@ const Skill = () => {
                 <p>NEXT</p>
                 <p>90%</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
